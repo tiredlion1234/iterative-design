@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+    <title>Iterative redesign</title>
+    <!--link rel="stylesheet" href="style.css"-->
+    <meta name="description" content="Iterative redesign">
+</head>
+<style>
+    body {
+      background-color: rgb(230, 244, 250);
+    }
+    
+    h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-left: 20px;
+    } 
+
+    p {
+        text-align: left;
+        font-family: Georgia, serif;
+        line-height: 130%;
+        padding-left: 2rem;
+    }
+
+    section {
+        padding: 5rem;
+    }
+
+    .sketch-row {
+        display: flex;
+        flex-wrap: wrap;
+    }  
+
+    .sketch {
+        width:25rem;
+        height:25rem;
+    }
+    .c3{
+        font-weight : bold; 
+    }
+    </style>
+<body>
+    <div class = "page_container">
+        <h1> Iterative Design </h1>
+        <p style="padding-left: 5rem; padding-right: 5rem;"> A key factor in the creation of a successful design is feedback and iteration. Through group
+            design sessions, peer critique, and user testing, designers can ensure that their work is
+            effective, clear, and accessible. Through a series of revisions made after each stage of
+            feedback, our 4 person student group created a website designed to solve a problem and fill
+            a niche identified by a startup launched through Y-Combinator, Float Health.
+        </p>
+        <br>
+
+        <!--SKETCHING-->
+        <section style="background-color:rgb(255, 255, 255);">
+            <h2> Sketching and Wireframing </h2>
+            <p>
+            Each member of the design team created a unique sketch consisting of a couple of
+            screens which showed the base functionality of the website in unique styles and
+            layouts.
+            </p>
+    
+        <!--PREDESIGN-->
+            <h3> Pre-Design Thinking </h3>
+            <p> We chose to design a webpage for the startup Float Health, which aims to be an
+                Uber-like website where users can request a nurse to come to their home. When
+                thinking about what kind of interface to design, we primarily thought about
+                the probable users for this startup. Since people who would need a nurse to
+                come to their home are probably older, we decided a desktop webpage would be a better
+                design choice, rather than a mobile site. </p>
+            <h3> Sketching </h3>
+            <p> We first started brainstorming about the various ways the website could look. The
+                following 4 designs are quick sketches of a Float Health website.</p>
+            <h4> Design 1 </h4>
+            <div class="sketch_row">
+                <img src="images/sketch_1_page_1.jpg" class="sketch">
+                <img src="images/sketch_1_page_2.jpg" class="sketch">
+                <img src="images/sketch_1_page_3.jpg" class="sketch">
+            </div>
+            <p class="sketch_text"> This design features a home screen, profile screen, and a checkout screen.
+                The profile screen provides basic information about the website and allows users to
+                login. The profile screen is linked to the patient and contains information like lab
+                results and the option to schedule an appointment. The checkout screen is a confirmation
+                page for when a patient schedules an appointment. </p>
+            
+            <h4> Design 2 </h4>
+            <div class="sketch_row">
+                <img src="images/sketch_2_page_1.jpg" class="sketch">
+                <img src="images/sketch_2_page_2.jpg" class="sketch">
+                <img src="images/sketch_2_page_3.jpg" class="sketch">
+            </div>
+            <p class="sketch_text"> This design has a home screen, an information form, and a screen for selecting appointment
+                search
+                results. The home screen provides basic information about the website. The information form has
+                the user input their information like address, insurance, and health needs, so they can find a
+                nurse who would be best for them. Finally the search result page shows the patient nurses who
+                are nearby and match their needs. The patient can select the nurse they prefer and request an appointment.</p>
+            <h4> Design 3 </h4>
+            <div class="sketch_row">
+                <img src="images/sketch_3_page_1.jpg" class="sketch">
+                <img src="images/sketch_3_page_2.jpg" class="sketch">
+                <img src="images/sketch_3_page_3.jpg" class="sketch">
+            </div>
+            <p class="sketch_text"> This design has a patient profile containing basic patient information, a home screen, and an
+                appointment
+                scheduling page. The home page has information about Float Health and allows the patient to select "Schedule Nurse's
+                Visit".
+                This page also has a live chat option for assistance.
+                The scheduling page has an interactive calendar so the patient can choose which day they would like to schedule
+                their
+                appointment.</p>
+            <h4> Design 4 </h4>
+            <div class="sketch_row">
+                <img src="images/sketch_4_page_1.jpg" class="sketch">
+                <img src="images/sketch_4_page_2.jpg" class="sketch">
+                <img src="images/sketch_4_page_3.jpg" class="sketch">
+                <img src="images/sketch_4_page_4.jpg" class="sketch">
+            </div>
+            <p class="sketch_text"> This design has a patient profile page, a nurse sign up page, a nurse profile page, and a
+                patient scheduling page.
+                Unlike the other designs, this design integrates two sides of functionality: those on the patient side and those on
+                the
+                nurse side. Nurses are able to apply to be on the website and have their own profile page they can edit. </p>
+
+
+        <!--WIREFRAMES-->
+            <br>
+            <h2> Wireframes </h2>
+            <p> Next, we created a low-fidelity wireframe which merged our ideas together. This wireframe has a home screen, nurse
+            and patient information / signup forms, nurse and patient profiles, a page for booking appointments, and an appointment
+            confirmation page. While designing this wireframe, we pulled ideas from each of our sketches. From design 3, we pulled
+            the live chat option, from design 1 we pulled the confirmation page, from design 2 we pulled the information forms, and
+            from design 4 we pulled the nurse side of the interface, for example.</p>
+            <a style="text-align:center; font-size:2rem"  href="https://www.figma.com/file/jfrkYpxd69KBLee8e8ABoZ/Lo-Fi-Wireframe"> Lofi wireframe</a>
+        </section>
+
+        <!--MOCKUPS-->
+        <section style="background-color:rgb(157, 175, 208);">
+        <h1> Mockups </h1>
+        <h2> High Fidelity Mockup </h2>
+        <p> Based on our low-fidelity wireframe, we created an interactive high-fidelity prototype. This prototype incorporated
+        new characteristics for the page like a color scheme and a well-defined font hierarchy. We created a logo for the website
+        and connected the various pages so that a user could navigate through them. </p>
+        <a style="text-align:center; font-size:2rem" href="https://www.figma.com/file/MrCDZK8sJ3tmJXlCRRfbXO/Hi-Fi-Wireframe-Float-Health?fuid=1150193252608434523"> Hifi prototype </a>
+        </section>
+        <section>
+        <h2> Studio Critique </h2>
+        <p> At this point in our development process, we spent a lot of time creating prototypes for our
+        website, and as such, are likely to be prone to confirmation bias. In a studio setting, we had
+        people who were unfamiliar with the website interact it and critique our work. We took notes on
+        the issues posed and compiled them below:</p>
+        <table class="c15">
+            <tbody>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Hierarchy</span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-When you go to login as a patient, the heading and the entries are the same font and size for your medicines</span>
+                    </p>
+                    <p class="c0">
+                        <span class="c2">-For lab results, copy those lines and graphs for notes and medicines you take.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Interaction
+                        </span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-Nurse login in page, confusing which text you can interact with</span>
+                    </p>
+                    <p class="c0">
+                        <span class="c2">-Make sure all buttons are intractable</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Navigation</span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-On the nurse and patient page, when you click home, it logs you out, instead of taking you to a homepage while logged in
+                        </span>
+                    </p>
+                    <p class="c0 c3">
+                        <span class="c2">
+
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Learnability
+                        </span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-The exact wording of the appointment summary on book appointment at the bottom of the page is very helpful</span>
+                    </p>
+                    <p class="c0">
+                        <span class="c2">-Fix the language flag</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Visual Design
+                        </span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-Some of the colors of the text easier to see, red against red background, green and red for green red colorblindness
+                        </span>
+                    </p>
+                    <p class="c0">
+                        <span class="c2">-Red is an alarming color as a background
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">New Features
+                        </span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c2">-Add a summary, explanation of the copay with a breakdown
+                        </span></p><p class="c0">
+                    <span class="c2">-Patient login in page, obvious how to update profile but should have update buttons for other fields in profile and for notes/lab results
+                    </span>
+                </p>
+                </td>
+            </tr>
+            <tr class="c4">
+                <td class="c6" colspan="1" rowspan="1">
+                    <p class="c0">
+                        <span class="c3">Other
+                        </span>
+                    </p>
+                </td>
+                <td class="c6" colspan="1" rowspan="1"><p class="c0">
+                    <span class="c2">-Confusion about uber eats for nurse vs uber
+                    </span>
+                </p>
+                    <p class="c0">
+                        <span class="c2">-Make sure to fix things, prevent confusion for usability testing
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <p style="font-weight: bold;"> Now that we identified issues with our original design, we revised our prototype: </p>
+        <a style = "font-size: 2rem; padding-left: 2rem;"href="https://www.figma.com/file/U63zLkwlWKMJmVVL5XrEj5/Hi-Fi-Wireframe-Float-Health-Revisions-(Post-Studio)"> Revised prototype </a>
+        
+    </section>
+     <section>   
+        <h1> User Testing </h1>
+        <p></p>
+        <h2> Task Given </h2>
+        <img src="./images/task.PNG" alt="task"> 
+        <img src="./images/taskq.PNG" alt="task"> 
+        <h2> Testing Videos </h2>
+            <video controls>
+                <source src="videos/UserTesting-4342968A.mp4">
+            </video>
+            <video controls>
+                <source src="videos/UserTesting-4342968B.mp4">
+            </video>
+            <video controls>
+                <source src="videos/UserTesting-4342968C.mp4">
+            </video>
+        <h2> Testing Notes </h2>
+        <div class="testing_notes">
+        <h3> User 1 </h3>
+        <ul>
+            <li>User profile stuff seems more relevant to doctor.</li>
+            <li>Medicine seems reasonable.</li>
+            <li>Assume notes would have what doctor recommended last time.</li>
+            <li>Not enthused or bothered my profile info.</li>
+            <li>Might be hard for user to understand what their appt needs are.</li>
+            <li>Confused as to whether float health is a physical place or not, didn't get the Uber for Nurses aspect.</li>
+            <li>Not sure what the service is offering, scheduling appt seems like a doctor responsibility.</li>
+            <li>Useful to see upcoming appt.</li>
+            <li>Likes that you can see doctor recommendations and medicines.</li>
+        </ul>
+        <h3> User 2 </h3>
+        <ul>
+            <li>Thinks patient login looks out of place.</li>
+            <li>Confused by whether the info bubbles are mandatory markers or validation markers.</li>
+            <li>User sign up should not take you to the home page after submitting.</li>
+            <li>Doesn't want to upload a profile picture.</li>
+            <li>Calendar should advertise availability.</li>
+            <li>Time function doesn't look editable.</li>
+            <li>Forgot to change Jackie placeholder nurses.</li>
+            <li>Thought It was crowded but fairly easy to use.</li>
+        </ul>
+        <h3> User 3 </h3>
+        <ul>
+            <li> Also doesn't want to upload a picture. </li>
+            <li> Medicines you take could be "medications" instead.</li>
+            <li> Doesn't understand why some appointment needs are darker shades.</li>
+            <li> "Book an appointment" could be centered.</li>
+        </ul>
+        </div>
+        <h2> Post-test Responses </h2>
+        <h3> User 1 </h3>
+        <img class="resp_img" src="Screen%20Shot%202022-11-10%20at%204.59.41%20PM.png">
+        <h3> User 2 </h3>
+        <img class="resp_img" src="Screen%20Shot%202022-11-10%20at%204.59.49%20PM.png">
+        <h3> User 3 </h3>
+        <img class="resp_img" src="Screen%20Shot%202022-11-10%20at%204.59.55%20PM.png">
+        <h2> User Testing Analysis and Results </h2>
+        <p> The task we gave the UserTesting participants was to login to our site, try to book an appointment, and to confirm the appointment.  The results with respect to the users completing our task were as expected and were 100% successful in terms of task completion.  The main task was to make an appointment and the subtasks were to login, book an appointment, and confirm it.  The only error that was recorded was that one of the users mistakenly clicked the "I am a Patient" button which took them to their patient profile page and so they had to click logout in order to get back to the homepage and eventually click the 'login' button to successfully complete the task.  In general, all three users did a wonderful job on the task. <br> <br>
+
+            Regarding the changes we would to our potential interface based on our UserTesting results and feedback include the following: centering the 'Book an Appointment' subtitle on the appointment page, adding availability to the patient-facing calendar shown on our 'book an appointment page', renaming the "I am a Patient" button to "Patient Sign Up", removing the profile picture and the update profile picture button, making it overtly obvious on the homepage that our service is sending nurses to people through appointment booking (Uber for Nurses), changing the submit button functionality to take the user to their profile page instead of the homepage, and finally we would clarify the background coloration and highlighting of the appointment needs options on the 'Book an Appointment' by deleting it wholesale.
+        </p>
+    </section>
+    </div>
+</body>
+</html>
